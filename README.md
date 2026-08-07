@@ -1,58 +1,65 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Hello Laravel
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This project was created for our Week 2 laboratory activity in ITST 302 – Client-Server Technologies.
 
-## About Laravel
+The goal of this activity was to install Laravel and its required software, create a simple Laravel application, and learn how to use Git and GitHub.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Objectives
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Install PHP
+- Install Composer
+- Install Laravel
+- Install Git
+- Install MySQL
+- Create and run a Laravel project
+- Upload the project to GitHub
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Development Environment
 
-## Learning Laravel
+- Operating System: Windows 10
+- PHP: 8.0.30
+- Composer: 2.10.2
+- Laravel: 4.5.1
+- Git: 2.55.0.windows.3
+- MySQL: 9.0
+- Visual Studio Code: 1.132.0  
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Installation
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
-
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+1. Install PHP.
+2. Install Composer.
+3. Install Laravel.
+4. Install Git.
+5. Install MySQL.
+6. Create a Laravel project.
+7. Run the project using:
 
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+php artisan serve
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+## Project Structure
 
-## Contributing
+- `app/` – Application files
+- `routes/` – Website routes
+- `resources/` – Views and frontend files
+- `public/` – Public files
+- `config/` – Configuration files
+- `database/` – Database files
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Problems Encountered
 
-## Code of Conduct
+- PHP was not recognized in Command Prompt.
+- Composer was not recognized.
+- I had to restart my terminal after installation.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Reflection
 
-## Security Vulnerabilities
+This activity helped me learn how to set up a Laravel development environment. I also learned how to use Git and GitHub to manage my project. Although I encountered a few installation problems, I was able to solve them and successfully run my first Laravel application.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## References
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Laravel Documentation
+- PHP Documentation
+- Composer Documentation
+- Git Documentation
